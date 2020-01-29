@@ -16,6 +16,7 @@ alias p="cd ~/projects"
 alias g="git"
 
 alias l="exa -lbF"
+alias la="exa -lbhHigUmuSa --time-style=long-iso --color-scale"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
